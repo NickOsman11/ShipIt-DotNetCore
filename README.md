@@ -2,9 +2,9 @@
 
 ## Setup Instructions
 Open the project in VSCode.
-run dotnet add package psql
-in shipittest, run dotnet add package Microsoft.Extensions.Configuration
-VSCode should automatically set up and install everything you'll need apart from the database connection!
+    run dotnet add package psql
+     in shipittest, run dotnet add package Microsoft.Extensions.Configuration
+     VSCode should automatically set up and install everything you'll need apart from the database connection!
 
 ### Setting up the Database.
 Create 2 new postgres databases - one for the main program and one for our test database.
